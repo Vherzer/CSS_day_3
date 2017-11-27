@@ -27,10 +27,11 @@ src: url(slabo_font.ttf);
 	border-width: 2px;
 	padding-top: 10px;
 }
+
 .links{
 	display: flex;
-	
 }
+
 .link1{
 	border: solid;
 	border-color: black;
@@ -38,6 +39,16 @@ src: url(slabo_font.ttf);
 	margin: 2px;
 	padding: 3px;
 	}
+
+.link1:hover {
+	color: grey;
+	font-size: 15px;
+}	
+a:hover{
+	color: red;
+	font-size: 20px;
+}
+
 #border {
 	border: solid;
 	border-color: black;
