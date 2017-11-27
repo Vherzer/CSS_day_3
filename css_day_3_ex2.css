@@ -1,5 +1,5 @@
 h1 {
-	color: orange;
+	color: white;
 	background-color: green;
 	height: 35px;
 	text-align: center;
@@ -9,4 +9,24 @@ h1 {
 	text-align: center;
 	padding-left: 30px;
 
+}
+input {
+	margin-right: 50px;
+	margin-top: 50px;
+	margin-left: 50px;
+	transition: width 3s, height 3s, transform 3s;
+
+}
+h2 {
+	margin-left: 30px;
+}
+body {
+	background-color: white;
+	color: white;
+	text-shadow: 1px 1px 3px green;
+}
+input:hover{
+	width: 100%;
+	box-shadow: 2px 2px 2px 3px green;
+	transform:  rotate(360deg);
 }
