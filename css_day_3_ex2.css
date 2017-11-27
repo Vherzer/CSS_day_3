@@ -1,0 +1,12 @@
+h1 {
+	color: orange;
+	background-color: green;
+	height: 35px;
+	text-align: center;
+}
+.form {
+	display: flex;
+	text-align: center;
+	padding-left: 30px;
+
+}

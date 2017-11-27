@@ -9,16 +9,17 @@ src: url(slabo_font.ttf);
 
 #header{ 
 	background-color: #E2AE2C;
-	height: 50px;
+	height: 60px;
 	text-align: center;
-	padding-top: 20px;
+	padding-top: 10px;
 	border: solid;
 	border-color: black;
 	border-width: 2px;
-	font-size: 30px;
+	font-size: 10px;
+	width: 100%;
 
 }
-#footer{
+footer{
 	background-color: #E2AE2C;
 	height: 30px;
 	text-align: center;
@@ -26,10 +27,14 @@ src: url(slabo_font.ttf);
 	border-color: black;
 	border-width: 2px;
 	padding-top: 10px;
+	width: 100%;
 }
 
 .links{
 	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
 }
 
 .link1{
@@ -38,6 +43,10 @@ src: url(slabo_font.ttf);
 	border-width: 2px;
 	margin: 2px;
 	padding: 3px;
+	min-width: 300px;
+	width: 30%;
+	display: flex;
+	flex-direction: column;
 	}
 
 .link1:hover {
@@ -45,7 +54,7 @@ src: url(slabo_font.ttf);
 	font-size: 15px;
 }	
 a:hover{
-	color: red;
+	color: #E2AE2C;
 	font-size: 20px;
 }
 
@@ -54,4 +63,18 @@ a:hover{
 	border-color: black;
 	border-width: 2px;
 	padding: 2px;
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+}
+@media only screen and (max-width:414px){
+	.links{
+		min-width: 100%;
+
+	}
+	#border{
+		min-width: 350px;
+		min-height: 100%;
+	}
+
 }
