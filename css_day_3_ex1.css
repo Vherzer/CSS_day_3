@@ -1,0 +1,46 @@
+*{
+	font-family: 'Slabo', serif;
+
+}
+@font-face {
+font-family: Slabo ;
+src: url(slabo_font.ttf);
+}
+
+#header{ 
+	background-color: #E2AE2C;
+	height: 50px;
+	text-align: center;
+	padding-top: 20px;
+	border: solid;
+	border-color: black;
+	border-width: 2px;
+	font-size: 30px;
+
+}
+#footer{
+	background-color: #E2AE2C;
+	height: 30px;
+	text-align: center;
+	border: solid;
+	border-color: black;
+	border-width: 2px;
+	padding-top: 10px;
+}
+.links{
+	display: flex;
+	
+}
+.link1{
+	border: solid;
+	border-color: black;
+	border-width: 2px;
+	margin: 2px;
+	padding: 3px;
+	}
+#border {
+	border: solid;
+	border-color: black;
+	border-width: 2px;
+	padding: 2px;
+}
